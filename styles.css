@@ -434,7 +434,8 @@ textarea {
 	margin-right: 15px;
 	color: whitesmoke;
 	font-size: 12px;
-	front-family: "brioso pro";
+	font-family: "brioso pro";
+	font-style: normal;
 }
 
 .reader-bio-div a {
