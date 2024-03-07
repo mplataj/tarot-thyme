@@ -1,0 +1,593 @@
+@charset "utf-8";
+@import url("https://use.typekit.net/cvz4gbv.css");
+
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: darkgoldenrod;
+	color: black;
+	font-family:'brioso pro';
+	text-align: center;
+}
+	
+/**** TinT HEADER ****/
+
+#tint-header-div {
+	background-color:rgba(254,254,253,1.00);
+	color: antiquewhite;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+#tint-header-div img {
+	
+}
+
+#tint-header-div h1 {
+	font-family: "rotunda-veneta";
+	font-size: 55px;
+	text-decoration: underline;
+	text-transform: none;
+	color: rgba(0,33,33,1.00);
+	padding: 0px;
+	margin: 10px auto 0px auto;
+}
+
+
+/**** NAVIGATION ****/
+
+nav {
+    text-align: center;
+    vertical-align: middle;
+    background-color:goldenrod;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    font-size: 12pt;
+	font-weight: bolder;
+    text-transform:uppercase;
+    letter-spacing: 2pt;
+	font-family: 'brioso pro';
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+nav a {
+	color:black;
+	text-decoration: none;
+	max-width: 250px;
+	min-width: 100px;
+	height: 20px;
+	width: auto;
+	flex: 1 1 auto;
+	margin: 0px;
+	padding: 12px;
+	border: none;
+}
+
+nav a:active {
+	color:transparent;
+	padding: 10px;
+	background-color: black;
+	background-image: url("images/bolt-2-white.jpg");
+	background-position: center;
+	background-size:contain;
+	background-repeat: no-repeat;
+	transition: 100ms;
+}
+
+nav a:visited {
+	color: black;
+}
+
+nav a:hover {
+	color:white;
+}
+
+/**** MAIN CONTENT ****/
+
+main {
+margin: 0px;
+padding: 0px;
+}
+
+/*** main content window box styling ***/
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px auto;
+	padding: 0px;
+	min-width: 500px;
+	max-width: 100%;
+}
+
+.max-width-container {
+	background-color:none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	max-width: 1000px;
+
+}
+
+.div-colorbar-dark-green {
+	background-color:rgba(0,33,33,1.00);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 30px 20px;
+	width: 100%;
+}
+
+.div-colorbar-dark-green h1 {
+	color:rgba(254,254,254,1.00);
+	font-size: 40px;
+}
+
+.div-colorbar-dark-green h2 {
+	color: goldenrod;
+	font-size: 28px;
+}
+.div-colorbar-dark-green p {
+	color: antiquewhite;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+.div-colorbar-dark-green a {
+	color:rgba(138,114,158,1.00);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.div-colorbar-dark-green a:hover {
+	color:white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.div-colorbar-white {
+	background-color:rgba(254,254,254,1.00);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 30px 20px;
+	width: 100%;
+}
+
+.div-colorbar-white h1 {
+	color: rgba(0,33,33,1.00);
+	font-size: 40px;
+}
+
+.div-colorbar-lavender {
+	background-color: rgba(197,191,204,1.00);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 30px 20px;
+	width: 100%;
+}
+
+.div-colorbar-lavender h1 {
+	color:rgba(0,33,33,1.00);
+	font-size: 40px;
+}
+
+.div-colorbar-lavender h2 {
+	color:rgba(0,33,33,1.00);
+	font-size: 28px;
+}
+
+.div-colorbar-lavender p {
+	color:rgba(0,33,33,1.00);
+	font-weight: bold;
+}
+
+.div-colorbar-lavender a {
+	color:darkgoldenrod;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.div-colorbar-lavender a:hover {
+	color:white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.div-colorbar-footer-info {
+	background-color:rgba(197,191,204,1.00);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 30px 20px;
+	width: 100%;
+}
+
+.div-colorbar-footer-info h2 {
+	color: rgba(0,33,33,1.00);
+}
+.div-colorbar-footer-info p {
+	color: rgba(0,33,33,1.00);
+}
+
+
+p {
+	color:rgba(0,33,33,1.00);
+	text-align: left;
+	font-size: 13pt;
+	margin: 15px auto;
+}
+
+/**** INDEX PAGE ****/
+
+.about-img-section {
+	max-width:300px;
+	margin: 0px 30px;
+}
+
+.about-img-section img {
+	border: 2px solid rgba(0,33,33,1.00);
+	border-radius: 100px;
+	margin: 25px 15px 0px 15px;
+	box-shadow: 0px 0px 20px 0px rgba(0,33,33,0.6);
+	width: 220px;
+}
+
+.about-text-section {
+	width: 100%;
+	max-width:400px;
+	min-width:250px;
+	margin: 0px 15px;
+}
+
+.about-text-section p{
+	font-style: italic;
+}
+
+/***** shoppe images colorbar  *****/
+.shoppe-images-section {
+	background-color:none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	max-width: 900px;
+}
+
+.shoppe-img-div {
+	text-align: center;
+	padding: 0px;
+	margin: 20px 5px;
+	max-width: 200px;
+	min-width: 150px;
+	flex: 1 0 auto;
+}
+
+.shoppe-img-div img {
+	width: 190px;
+	border: 2px solid darkgoldenrod;
+	
+}
+
+/**** CONTACT PAGE ****/
+
+.contact-page-section {
+	text-align: center;
+	padding: 0px;
+	margin: 0px auto;
+	max-width: 500px;
+	min-width: 200px;
+	flex: 1 0 auto;
+}
+
+/** contact form **/
+
+fieldset {
+	border: 2px ridge darkgoldenrod;
+	border-radius: 30px;
+	margin: 10px auto 30px auto;
+	padding: 0px 30px;
+	text-align: center;
+	background-color: none;
+	color: antiquewhite;
+	min-width: 300px;
+	max-width: 700px;
+}
+
+fieldset legend {
+	text-align: center;
+}
+
+fieldset p {
+	text-align: center;
+}
+
+legend {
+	color:khaki;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0px;
+}
+
+label {
+	font-size: 14pt;
+	text-align: left;
+}
+
+label p{
+	font-size: 14pt;
+	text-align: left;
+}
+
+textarea {
+	padding: 7px;
+	color: black;
+}
+
+.submit-button-div {
+	width: auto;
+	height: auto;
+	margin: 33px auto;
+	margin-top: 60px;
+}
+
+.submit-button-div a{
+	min-width: auto;
+	height: auto;
+	margin: 0px auto;
+	padding: 12px 23px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'brioso pro';
+	font-size: 14pt;
+	font-weight: bold;
+	letter-spacing: 3pt;
+	color: black;
+	box-shadow: 0px 0px 0px whitesmoke;
+	border-radius: 50px;
+	background-color: darkgoldenrod;
+	border:thin outset khaki;
+}
+
+.submit-button-div a:hover {
+	color: whitesmoke;
+	text-decoration: none;
+	background-color:rgba(168,158,178,1.00);
+	border:thin outset khaki;
+}
+
+/**** TAROT PAGE ****/
+
+#tarot-intro-text-container {
+	width: 100%;
+	max-width: 400px;
+	min-width: 200px;
+	margin: 0px auto;
+}
+
+#tarot-intro-text-container p{
+	font-style: italic;
+}
+
+.meet-readers-section {
+	background-color:none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	max-width: 1000px;
+}
+
+.reader-bio-div {
+	text-align: center;
+	padding: 0px;
+	margin: 20px auto;
+	max-width: 200px;
+	min-width: 150px;
+	flex: 1 0 auto;
+}
+
+.reader-bio-div img {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	box-shadow: 0px 0px 20px whitesmoke;
+}
+
+.reader-bio-div h2 {
+	color: goldenrod;
+	font-size: 20px;
+}
+
+.reader-bio-div p{
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: whitesmoke;
+	font-size: 12px;
+	front-family: "brioso pro";
+}
+
+.reader-bio-div a {
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.book-button-div {
+	margin: 30px auto;
+}
+
+.book-button-div a{
+	padding: 12px 12px 10px 12px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'brioso pro';
+	font-size: 10pt;
+	letter-spacing: 1pt;
+	color: goldenrod;
+	box-shadow: 0px 0px 15px whitesmoke;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0.5);
+	border: thin outset darkgoldenrod;
+}
+
+.book-button-div a:hover {
+	color: whitesmoke;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+	background-color: darkgoldenrod;
+	border:thin outset darkgoldenrod;
+}
+
+/**** footer info section ****/
+
+
+
+/** hours section **/
+
+#hours-section {
+	max-width: 300px;
+	margin: 0px 40px;
+}
+
+#hours-section p, h2, div {
+text-align: center;
+}
+
+#hours-table {
+	border: 2px inset darkgoldenrod;
+	background-color:rgba(254,254,254,1.00);
+	margin: 20px auto;
+	padding: 10px;
+	font-family: "brioso pro";
+	font-size: 18px;
+	width: 240px;
+}
+
+#hours-table tr {
+	border: thin solid antiquewhite;
+	padding: 5px;
+}
+
+#hours-table th {
+	text-align: right;
+	font-weight: bolder;
+	padding: 5px;
+}
+
+#hours-table td {
+	text-align: center;
+}
+
+
+/*** location section ***/
+
+#location-section {
+	margin: auto 40px;
+	max-width: 300px;
+}
+
+#location-section h2 {
+	margin-bottom: 10px;
+}
+
+#location-div {
+	width: 300px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 20px;
+}
+
+#location-div p {
+	width: 140px;
+	display: inline-block;
+	text-align: left;
+}
+
+#location-section iframe {
+	border-color: darkgoldenrod;
+}
+
+#smedia-icons-div {
+	margin: 20px 40px;
+}
+
+#smedia-icons-div img {
+	width: 50px;
+	margin: 0px 10px;
+}
+
+/*** FOOTER *************/
+
+footer {
+	vertical-align: bottom;
+    margin: 0px;
+	padding: 15px;
+	height: 40px;
+	width: 100%;
+	background-color: darkgoldenrod;
+	
+}
+
+footer p {
+	clear: both;
+    text-transform: uppercase;
+    text-align: center;
+	vertical-align: bottom;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/**** SCROLLBAR ****/
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: whitesmoke;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139,122,152,1.00);
+}
+
+/******UNUSED******/
+
