@@ -72,13 +72,9 @@ nav a {
 }
 
 nav a:active {
-	color:transparent;
+	color:gold;
 	padding: 10px;
-	background-color: black;
-	background-image: url("images/bolt-2-white.jpg");
-	background-position: center;
-	background-size:contain;
-	background-repeat: no-repeat;
+	background-color: goldenrod;
 	transition: 100ms;
 }
 
