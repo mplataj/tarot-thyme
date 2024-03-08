@@ -359,15 +359,14 @@ textarea {
 .submit-button-div {
 	width: auto;
 	height: auto;
-	margin: 33px auto;
-	margin-top: 60px;
+	margin: 60px auto 30px auto;
 }
 
 .submit-button-div a{
 	min-width: auto;
 	height: auto;
 	margin: 0px auto;
-	padding: 12px 23px;
+	padding: 12px 20px;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -375,18 +374,23 @@ textarea {
 	font-size: 14pt;
 	font-weight: bold;
 	letter-spacing: 3pt;
-	color: black;
-	box-shadow: 0px 0px 0px whitesmoke;
+	color: goldenrod;
+	box-shadow: 0px 0px 15px whitesmoke;
 	border-radius: 50px;
-	background-color: darkgoldenrod;
-	border:thin outset khaki;
+	background-color: rgba(0,0,0,0.25);
+	border:thin outset darkgoldenrod;
 }
 
 .submit-button-div a:hover {
 	color: whitesmoke;
 	text-decoration: none;
-	background-color:rgba(168,158,178,1.00);
-	border:thin outset khaki;
+	background-color:darkgoldenrod;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+	border:thin outset darkgoldenrod;
+}
+
+.book-button-div a:hover {
+	color: whitesmoke;
 }
 
 /**** TAROT PAGE ****/
