@@ -59,7 +59,7 @@ nav {
 }
 
 nav a {
-	color:black;
+	color:rgba(0,44,44,1.00);
 	text-decoration: none;
 	max-width: 250px;
 	min-width: 100px;
@@ -79,7 +79,7 @@ nav a:active {
 }
 
 nav a:visited {
-	color: black;
+	color: rgba(0,44,44,1.00);
 }
 
 nav a:hover {
@@ -119,7 +119,7 @@ padding: 0px;
 }
 
 .div-colorbar-dark-green {
-	background-color:rgba(0,33,33,1.00);
+	background-color:rgba(0,44,44,1.00);
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -144,7 +144,6 @@ padding: 0px;
 	font-style: italic;
 }
 
-
 .div-colorbar-dark-green a {
 	color:rgba(138,114,158,1.00);
 	font-weight: bold;
@@ -157,25 +156,8 @@ padding: 0px;
 	text-decoration: underline;
 }
 
-.div-colorbar-white {
-	background-color:rgba(254,254,254,1.00);
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 0px;
-	padding: 30px 20px;
-	width: 100%;
-}
-
-.div-colorbar-white h1 {
-	color: rgba(0,33,33,1.00);
-	font-size: 40px;
-}
-
 .div-colorbar-lavender {
 	background-color:rgba(198,181,223,1.00);
-	/** OLD greyer color: rgba(197,191,204,1.00) **/
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -429,7 +411,7 @@ textarea {
 .reader-bio-div img {
 	width: 150px;
 	height: 150px;
-	border: 2px solid black;
+	border: 2px solid rgba(0,33,33,1.00);
 	box-shadow: 0px 0px 20px whitesmoke;
 }
 
@@ -503,6 +485,7 @@ text-align: center;
 	font-family: "brioso pro";
 	font-size: 18px;
 	width: 240px;
+	color: rgba(0,33,33,1.00);
 }
 
 #hours-table tr {
@@ -570,17 +553,18 @@ footer {
 	height: 40px;
 	width: 100%;
 	background-color: darkgoldenrod;
+	font-family:'brioso pro';
+	letter-spacing: 1px;
 	
 }
 
 footer p {
-	clear: both;
     text-transform: uppercase;
     text-align: center;
 	vertical-align: bottom;
-	color: black;
+	color: rgba(0,33,33,1.00;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 88px;
 }
 
 /**** SCROLLBAR ****/
