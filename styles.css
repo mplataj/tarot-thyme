@@ -213,7 +213,7 @@ padding: 0px;
 }
 
 .div-colorbar-footer-info {
-	background-color:rgba(197,191,204,1.00);
+	background-color:rgba(198,181,223,1.00);
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -563,9 +563,9 @@ footer {
 	vertical-align: bottom;
     margin: 0px;
 	padding: 15px;
-	height: 50px;
+	height: 40px;
 	width: 100%;
-	background-color: goldenrod;
+	background-color: darkgoldenrod;
 	
 }
 
