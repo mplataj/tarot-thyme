@@ -19,11 +19,14 @@ body {
 	color: antiquewhite;
 	width: 100%;
 	text-align: center;
-	padding: 20px;
+	padding: 0px;
+	margin: 0px;
 }
 
 #tint-header-div img {
-	
+	padding: 0px;
+	margin: 20px auto 10px auto;
+	width: 500px;
 }
 
 #tint-header-div h1 {
@@ -33,7 +36,7 @@ body {
 	text-transform: none;
 	color: rgba(0,33,33,1.00);
 	padding: 0px;
-	margin: 10px auto 0px auto;
+	margin: 0px auto 0px auto;
 }
 
 
@@ -42,10 +45,10 @@ body {
 nav {
     text-align: center;
     vertical-align: middle;
-    background-color:rgba(221,171,44,1.00);
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+    background-color:rgba(227,182,68,1.00);
+    border-top: 4px solid darkgoldenrod;
+    margin-top: 0px;
+    padding-top: 10px;
     height: auto;
     width: 100%;
     font-size: 12pt;
@@ -67,7 +70,7 @@ nav a {
 	width: auto;
 	flex: 1 1 auto;
 	margin: 0px;
-	padding: 12px;
+	padding: 15px;
 	border: none;
 }
 
