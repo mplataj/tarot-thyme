@@ -3,13 +3,19 @@
 
 /* CSS Document */
 
+* {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: rgba(221,171,44,1.00);
+	background-color: white;
 	color: black;
 	font-family:'brioso pro';
-	text-align: center;
+	width: 100%;
 }
 	
 /**** TinT HEADER ****/
@@ -19,46 +25,41 @@ body {
 	color: antiquewhite;
 	width: 100%;
 	text-align: center;
-	padding: 0px;
-	margin: 0px;
+	padding: 0px 20px;
+	margin: 0px auto;
 }
 
 #tint-header-div img {
-	padding: 0px;
-	margin: 20px auto 10px auto;
-	width: 500px;
-}
-
-#tint-header-div h1 {
-	font-family: "rotunda-veneta";
-	font-size: 55px;
-	text-decoration: underline;
-	text-transform: none;
-	color: rgba(0,33,33,1.00);
-	padding: 0px;
-	margin: 0px auto 0px auto;
+	padding-top: 20px;
+	margin: 0px auto;
+	object-fit: contain;
+	max-width: 600px;
+	height: auto;
 }
 
 
 /**** NAVIGATION ****/
 
 nav {
-    text-align: center;
-    vertical-align: middle;
+    
     background-color:rgba(227,182,68,1.00);
-    border-top: 4px solid darkgoldenrod;
-    margin-top: 0px;
-    padding-top: 10px;
-    height: auto;
-    width: 100%;
-    font-size: 12pt;
+    mborder-top: 4px solid goldenrod;
+
+	font-family: 'brioso pro';
+	font-size: 12pt;
 	font-weight: bolder;
     text-transform:uppercase;
     letter-spacing: 2pt;
-	font-family: 'brioso pro';
+	text-align: center;
+    vertical-align: middle;
+	
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
+	margin: 0px;
+    padding: 0px 20px;
+	width: 100%;
 }
 
 nav a {
@@ -92,7 +93,7 @@ nav a:hover {
 /**** MAIN CONTENT ****/
 
 main {
-margin: 0px;
+margin: 0px auto;
 padding: 0px;
 }
 
@@ -110,25 +111,23 @@ padding: 0px;
 }
 
 .max-width-container {
-	background-color:none;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 0px;
-	padding: 0px;
+	margin: 20px 0px;
+	padding: 0px 20px;
 	max-width: 1000px;
-
 }
 
 .div-colorbar-dark-green {
-	background-color:rgba(0,44,44,1.00);
+	background-color:rgba(0,55,55,1.00);
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content:center;
 	margin: 0px;
-	padding: 30px 20px;
+	padding: 20px 20px;
 	width: 100%;
 }
 
@@ -166,7 +165,7 @@ padding: 0px;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0px;
-	padding: 30px 20px;
+	padding: 10px 20px;
 	width: 100%;
 }
 
@@ -225,27 +224,37 @@ p {
 
 /**** INDEX PAGE ****/
 
-.about-img-section {
+.img-text-feature {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px 20px;
+	max-width: 1000px;
+}
+
+.about-img-div {
 	max-width:300px;
 	margin: 0px 30px;
 }
 
-.about-img-section img {
-	border: 2px solid rgba(0,33,33,1.00);
+.about-img-div img {
+	border: 3px solid rgba(0,44,44,1.00);
 	border-radius: 100px;
-	margin: 25px 15px 0px 15px;
+	margin: 10px 15px 10px 15px;
 	box-shadow: 0px 0px 20px 0px rgba(0,33,33,0.6);
 	width: 220px;
 }
 
-.about-text-section {
+.about-text-div {
 	width: 100%;
 	max-width:400px;
-	min-width:250px;
-	margin: 0px 15px;
+	min-width:200px;
+	margin: 15px 15px 15px 15px;
 }
 
-.about-text-section p{
+.about-text-div p{
 	font-style: italic;
 }
 
@@ -256,32 +265,36 @@ p {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 0px;
+	margin: 0px auto;
 	padding: 0px;
 	max-width: 900px;
 }
 
 .shoppe-img-div {
 	text-align: center;
-	padding: 0px;
-	margin: 20px 5px;
+	padding: 10px;
+	margin: 0px;
+	min-width: 100px;
 	max-width: 200px;
-	min-width: 150px;
 	flex: 1 0 auto;
+	background-color: none;
 }
 
 .shoppe-img-div img {
-	width: 190px;
 	border: 2px solid darkgoldenrod;
+	margin: 0px; 
+	padding:0px;
+	object-fit: contain;
+	width: 100%;
 	
 }
 
 /**** CONTACT PAGE ****/
 
 .contact-page-section {
-	text-align: center;
-	padding: 0px;
-	margin: 0px auto;
+	text-align: left;
+	padding: 20px 0px;
+	margin: 0px;
 	max-width: 500px;
 	min-width: 200px;
 	flex: 1 0 auto;
@@ -289,56 +302,75 @@ p {
 
 /** contact form **/
 
-form h2 {
-	text-align: center;
+form {
+	text-align: left;
+	font-size: 14pt;
+	margin: 0px 0px 20px 0px;
 }
 
 fieldset {
 	border: 2px ridge darkgoldenrod;
 	border-radius: 30px;
-	margin: 10px auto 30px auto;
-	padding: 0px 30px;
-	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+	padding-bottom: 20px;
+	text-align: left;
 	background-color: none;
 	color: antiquewhite;
-	min-width: 300px;
-	max-width: 700px;
-}
-
-fieldset legend {
-	text-align: center;
-}
-
-fieldset p {
-	text-align: center;
-}
-
-legend {
-	color:khaki;
-	font-size: 20px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 0px;
-	text-align: center;
-}
-
-legend h2 {
-	text-align: center;
+	min-width: 250px;
+	max-width: 500px;
+	display: inline-block;
 }
 
 label {
 	font-size: 14pt;
 	text-align: left;
+	min-width: 20px;
+	max-width: 200px;
+	width: 100%;
+	margin: 0px;
 }
 
-label p{
-	font-size: 14pt;
+input {
 	text-align: left;
+	margin: 5px;
+	padding: 5px;
+	background-color: antiquewhite;
+	min-width: 120px;
+	max-width: 300px;
+	width: 100%;
 }
 
 textarea {
 	padding: 7px;
 	color: black;
+	text-align: left;
+	background-color: antiquewhite;
+	min-width: 150px;
+	max-width: 350px;
+	width: 100%;
+	margin: 10px auto;
+	display: block;
+}
+
+#checkbox-label-div {
+	text-align: left;
+	margin: 30px auto;
+	padding: 0px;
+	min-width: 150px;
+	max-width: 350px;
+	width: 100%;
+}
+
+.checkbox {
+	padding: 0px;
+	margin: 0px 5px 0px 0px;
+	max-width: 30px;
+	min-width: 10px;
+	width: 100%;
+	height: 20px;
+	vertical-align: middle;
+	
 }
 
 .submit-button-div {
@@ -384,7 +416,7 @@ textarea {
 	width: 100%;
 	max-width: 400px;
 	min-width: 200px;
-	margin: 0px auto;
+	margin: 20px auto;
 }
 
 #tarot-intro-text-container p{
@@ -416,6 +448,7 @@ textarea {
 	height: 150px;
 	border: 2px solid rgba(0,33,33,1.00);
 	box-shadow: 0px 0px 20px whitesmoke;
+	margin-bottom: 20px;
 }
 
 .reader-bio-div h2 {
@@ -491,19 +524,17 @@ text-align: center;
 	color: rgba(0,33,33,1.00);
 }
 
-#hours-table tr {
-	border: thin solid antiquewhite;
-	padding: 5px;
-}
-
 #hours-table th {
 	text-align: right;
 	font-weight: bolder;
 	padding: 5px;
+	width: 100px;
+
 }
 
 #hours-table td {
 	text-align: center;
+	width: 110px;
 }
 
 #hours-section .book-button-div a {
@@ -514,7 +545,7 @@ text-align: center;
 /*** location section ***/
 
 #location-section {
-	margin: auto 40px;
+	margin: 0px 40px;
 	max-width: 300px;
 }
 
@@ -538,11 +569,11 @@ text-align: center;
 	border-color: darkgoldenrod;
 }
 
-#smedia-icons-div {
-	margin: 20px 40px;
+.smedia-icons-div {
+	margin: 20px auto;
 }
 
-#smedia-icons-div img {
+.smedia-icons-div img {
 	width: 50px;
 	margin: 0px 10px;
 }
@@ -551,16 +582,15 @@ text-align: center;
 
 footer {
 	vertical-align: bottom;
-    margin: 0px;
-	padding: 15px;
-	height: 40px;
+    margin: 0px auto;
+	padding: 10px 20px;
+	height: 100%;
 	width: 100%;
-	background-color:rgba(221,171,44,1.00);
+	background-color:rgba(227,182,68,1.00);
 	font-family:'brioso pro';
 	letter-spacing: 1px;
 	font-weight: bold;
 	font-size: 16px;
-	
 }
 
 footer p {
