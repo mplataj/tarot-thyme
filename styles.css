@@ -33,7 +33,7 @@ body {
 	padding-top: 20px;
 	margin: 0px auto;
 	object-fit: contain;
-	max-width: 600px;
+	max-width: 500px;
 	height: auto;
 }
 
@@ -43,7 +43,7 @@ body {
 nav {
     
     background-color:rgba(227,182,68,1.00);
-    mborder-top: 4px solid goldenrod;
+    border-top: 4px solid goldenrod;
 
 	font-family: 'brioso pro';
 	font-size: 12pt;
@@ -75,16 +75,7 @@ nav a {
 	border: none;
 }
 
-nav a:active {
-	color:gold;
-	padding: 10px;
-	background-color: goldenrod;
-	transition: 100ms;
-}
 
-nav a:visited {
-	color: rgba(0,44,44,1.00);
-}
 
 nav a:hover {
 	color:white;
@@ -160,6 +151,12 @@ padding: 0px;
 
 .div-colorbar-lavender {
 	background-color:rgba(198,181,223,1.00);
+/**	background-image: url("tint-images/sky1.png");
+	background-size: cover;
+	background-position: center;
+    background-repeat: repeat-y;
+	background-attachment: fixed; **/
+	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -576,6 +573,11 @@ text-align: center;
 .smedia-icons-div img {
 	width: 50px;
 	margin: 0px 10px;
+	border-radius: 50px;
+}
+
+.smedia-icons-div img:hover {
+	background-color: rgba(138,114,158,1.00);
 }
 
 /*** FOOTER *************/
